@@ -43,5 +43,5 @@ COPY root/ /
 # ports and volumes
 EXPOSE $PORT
 VOLUME /config
-chown -R abc:abc \
+CMD chown -R abc:abc \
     /app/sonarr/bin
