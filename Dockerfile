@@ -41,5 +41,5 @@ RUN \
 COPY root/ /
 
 # ports and volumes
-CMD exec /app/sonarr/bin/sonarr --NoRestart --NoUpdates -p $PORT
+CMD exec /app/sonarr/bin/Sonarr.exe --NoRestart --NoUpdates -p $PORT
 VOLUME /config
