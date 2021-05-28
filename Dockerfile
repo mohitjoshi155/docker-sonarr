@@ -40,6 +40,6 @@ RUN \
 # add local files
 COPY root/ /
 
-# ports and volumes
-CMD exec /app/sonarr/bin/Sonarr.exe --NoRestart --NoUpdates -p $PORT
+# ports and volumes
+EXPOSE $PORT
 VOLUME /config
