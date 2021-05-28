@@ -2,4 +2,4 @@ build:
   docker:
     web: Dockerfile
 run:
-  web: exec /app/Sonarr/bin/Sonarr --NoRestart --NoUpdates -p $PORT
+  web: exec /app/sonarr/bin/Sonarr.exe --NoRestart --NoUpdates -p $PORT
