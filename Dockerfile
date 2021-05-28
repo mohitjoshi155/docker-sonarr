@@ -41,5 +41,5 @@ RUN \
 COPY root/ /
 
 # ports and volumes
-EXPOSE 8989
+CMD exec /app/sonarr/sonarr --NoRestart --NoUpdates -p $PORT
 VOLUME /config
